@@ -44,7 +44,11 @@
           <div className="col-6 offset-3">
               <h2 className="text-center">What's on todays Agenda?</h2>
               <TodoForm  onSubmit={addTodo} />
-              <Todo todos={todos} completeTodo={completeTodo} removeTodo={removeTodo} updateTodo={updateTodo} />
+              <Todo todos={todos} 
+              completeTodo={completeTodo} 
+              removeTodo={removeTodo} 
+              updateTodo={updateTodo} 
+              />
           </div>
       );
   }
